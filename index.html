@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        margin: 0; /* um den Standardseitenrand zu entfernen */
+        padding: 0; /* um den Standardseitenrand zu entfernen */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      .container {
+        position: absolute;
+        top: 1%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%; /* Maximale Breite für den Inhalt */
+        padding: 20px; /* Optional: fügt Innenabstand hinzu */
+        text-align: center; /* Zentriert den Text */
+      }
+
+      /* Media Query für kleinere Bildschirme (z.B. Tablets) */
+      @media only screen and (max-width: 768px) {
+        .container {
+          max-width: 90%; /* Anpassen der Breite für kleinere Bildschirme */
+        }
+      }
+
+      /* Media Query für noch kleinere Bildschirme (z.B. Smartphones) */
+      @media only screen and (max-width: 480px) {
+        .container {
+          max-width: 80%; /* Anpassen der Breite für noch kleinere Bildschirme */
+        }
+      }
+
+      /* Hier weiterhin deine vorhandenen Stile */
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="web1-1.png"
+        class="w-[1440px] h-[1024px] absolute left-[-1px] top-[-1px] object-cover"
+      />
+      <div
+        class="w-[1440px] h-[50px] absolute left-[-1px] top-[-1px] bg-[#87b7ff]"
+        style="box-shadow: 0px -22px 36px 39px #252525;"
+      ></div>
+      <p class="absolute left-[68px] top-2.5 text-2xl font-bold text-left text-white">
+        SMARTBOT INNOVATIONS
+      </p>
+      <p class="absolute left-[897px] top-3 text-xl font-medium text-left text-white">Startseite</p>
+      <p class="absolute left-[1020px] top-3 text-xl font-medium text-left text-white">Das Team</p>
+      <p class="absolute left-[1141px] top-3 text-xl font-medium text-left text-white">Der Roboter</p>
+      <p class="absolute left-[1284px] top-3 text-xl font-medium text-left text-white">Status Galerie</p>
+      <img
+        src="ftw-1.png"
+        class="w-[68px] h-[68px] absolute left-[-1px] top-[-10px] object-cover"
+      /><img
+        src="ftw-1.png"
+        class="w-[200px] h-[200px] absolute left-[60px] top-[92px] object-cover"
+      />
+      <p class="absolute left-[250px] top-[161px] text-[32px] font-bold text-left text-white">
+        <span class="text-[32px] font-bold text-left text-white">SMARTBOT</span><br /><span
+          class="text-[32px] font-bold text-left text-white"
+          >INNOVATIONS</span
+        >
+      </p>
+      <p class="absolute left-[107px] top-[393px] text-5xl font-bold text-left text-white">
+        Smart.
+      </p>
+      <p class="absolute left-[107px] top-[454px] text-[64px] font-bold text-left text-white">
+        Smart.
+      </p>
+      <p class="absolute left-[107px] top-[565px] text-7xl font-bold text-left text-white">
+        SmartBot Innovations!
+      </p>
+      <img
+        src="ft-1.png"
+        class="w-[550px] h-[550px] absolute left-[859px] top-[213px] object-cover"
+      />
+      <div
+        class="w-[400px] h-[400px] absolute left-[914.5px] top-[282.5px] border-[20px] border-white mix-blend-overlay"
+      ></div>
+      <div
+        class="w-[350px] h-[100px] absolute left-[106px] top-[763px] rounded-[100px] bg-[#00a2ac]"
+      ></div>
+      <p class="absolute left-[165px] top-[783px] text-2xl font-medium text-left text-white">
+        <span class="text-2xl font-medium text-left text-white">Hier Klicken</span><br /><span
+          class="text-2xl font-medium text-left text-white"
+          >um mehr zu erfahren</span
+        >
+      </p>
+    </div>
+  </body>
+</html>
